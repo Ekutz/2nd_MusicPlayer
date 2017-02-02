@@ -77,7 +77,7 @@ public class PlayerActivity extends AppCompatActivity {
 
         btnRew.setOnClickListener(clickListener);
         btnPlay.setOnClickListener(clickListener);
-        btnPlay.setOnClickListener(clickListener);
+        btnFf.setOnClickListener(clickListener);
 
         // 0. 데이터 가져오기
         datas = DataLoader.get(this);
